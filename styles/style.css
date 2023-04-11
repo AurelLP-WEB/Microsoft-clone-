@@ -1,0 +1,250 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI" !important;
+}
+li > a {
+  font-size: 13px !important;
+}
+.hero {
+  width: 100vw;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP4-1399x600);
+  background-color: #e6e6e6;
+}
+.hero-text-1 > p {
+  font-size: 19px;
+  font-family: 'SF Pro Display', sans-serif;
+  color: #000000;
+  margin-top: 90px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+.hero-text-2 > p {
+  font-size: 24px;
+  font-family: 'SF Pro Display', sans-serif;
+  color: #FFFFFF;
+  margin-top: -20px;
+}
+.hero-text > h1 {
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #0a9c84;
+}
+.hero-text > button {
+  font-size: 15px;
+  font-weight: 600;
+}
+.features {
+  margin: 0px 350px;
+}
+@media (max-width: 576px) {
+  .hero {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url();
+  }
+  .hero-text {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .features {
+    margin: 0px;
+  }
+  .features-item {
+    display: flex;
+    margin-top: 0px !important;
+  }
+  .features-item > img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    justify-content: center;
+    align-self: center;
+  }
+  .features-item > h5 {
+    vertical-align: middle;
+    margin-top: 8px;
+  }
+}
+#banner {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Soft-Hero-OneDriveCampaignRefresh-2:VP4-1260x600) !important;
+}
+h5 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.card-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.list-unstyled > li {
+  padding-top: 8px;
+}
+.list-unstyled > li > a {
+  color: #616161 !important;
+  font-size: 11px !important;
+  line-height: 16px !important;
+}
+
+.footer-heading {
+  padding: 36px 0 4px !important;
+  margin-bottom: 0px !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  color: #616161 !important;
+}
+.footer-14398 {
+  background-color: #f2f2f2;
+}
+.copyright-text {
+  font-size: 11px;
+  line-height: 16px;
+  color: #616161 !important;
+}
+.card-mslink {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: #0067b8;
+  transition: ease-in-out 0.1s;
+  border-bottom: 3px solid transparent;
+}
+.card-mslink:hover {
+  border-bottom: 3px solid #0067b8;
+  margin: 10px 0px;
+}
+.card-mslink0 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+  transition: ease-in-out 0.1s;
+  border-bottom: 3px solid #e6e6e6;
+}
+.card-mslink0:hover {
+  border-bottom: 3px solid #000;
+  margin: 10px 0px;
+  color: #000;
+}
+.btn-outline-light {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #3c3c3c;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #3c3c3c;
+}
+
+.btn-light:hover {
+  background-color: #f3f3f3;
+  color: #3c3c3c;
+}
+
+.rounded-pill {
+  border-radius: 50px;
+}
+#banner {
+  height: 500px;
+  position: relative;
+}
+
+#banner::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-text {
+  color: #fff;
+  z-index: 1;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  background-color: #212529;
+  border-color: #212529;
+}
+#support h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+#support p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+#support ul {
+  list-style: none;
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+
+#support li {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#support li i {
+  margin-right: 0.5rem;
+}
+
+#support button {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+#support button:hover {
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
